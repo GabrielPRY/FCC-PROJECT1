@@ -43,12 +43,64 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .contenedor-testimonio {
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  .contenedor-testimonio {
+    width: 650px;
+    height: 450px;
+  }
+
+  .contenedor-texto-testimonio {
+    padding: 10px;
+  }
+
+  .contenedor-texto-testimonio p {
+    font-size: 15px;
+  }
+
+  .cargo-testimonio {
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .texto-testimonio {
+    padding: 10px;
+  }
+
+  .img-testimonio {
+    width: 300px;
+    height: 455px;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  .contenedor-testimonio {
+    align-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 420px;
+  }
+
+  .contenedor-texto-testimonio {
+    padding: 10px;
+  }
+
+  .contenedor-texto-testimonio p {
+    font-size: 15px;
+  }
+
+  .cargo-testimonio {
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .texto-testimonio {
+    padding: 10px;
+  }
 }
 
 @media screen and (max-width: 320px) {
