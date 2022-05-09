@@ -28,9 +28,26 @@ h1 {
 }
 
 .contenedor-principal {
+  max-width: 100vw;
   min-height: 600px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+  h1 {
+    max-width: 200px;
+    font-size: 1em;
+  }
 }
